@@ -12,12 +12,20 @@ var canvas = new CanvasPalBuffer({
 
 ## Change color in the index palette (RGB32)
 ```javascript 
-  canvas.palette[0] = 0xffffff; // index0 is the clear screen
-  canvas.palette[1] = 0x000000; // black
+canvas.palette[0] = 0xffffff; // index0 is the clear screen
+canvas.palette[1] = 0x000000; // black
 ```
 
 ## Draw some shapes
 ```javascript
-    canvas.drawPixel(10,10, 1);
+// pixel
+canvas.drawPixel(10,10, 1);
+
+// line
+canvas.drawBresenhamLine(0,0,30,30, 1);
+
+// circle
+var size = irand(5,10);
+this.canvas.drawCircle(20,20, 10, 1);
 ```
 
