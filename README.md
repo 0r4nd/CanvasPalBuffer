@@ -25,7 +25,7 @@ canvas.drawPixel(10,10, 1);
 canvas.drawBresenhamLine(0,0,30,30, 1);
 
 // circle
-this.canvas.drawCircle(20,20, 10, 1);
+canvas.drawCircle(20,20, 10, 1);
 ```
 
 ## Draw on a CanvasElement, and swap buffers
