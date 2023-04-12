@@ -28,7 +28,7 @@ canvas.drawBresenhamLine(0,0,30,30, 1);
 this.canvas.drawCircle(20,20, 10, 1);
 ```
 
-## draw on canvas, and swap buffers
+## Draw on a CanvasElement, and swap buffers
 ```javascript
 var elem = document.getElementById("myCanvas");
 canvas.draw(elem);
